@@ -1,0 +1,21 @@
+.socials {
+  &__list {
+    display: flex;
+    column-gap: var(--gap);
+  }
+
+  &__item {
+    @include square(#{fluid(56, 48)});
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--border);
+    border-radius: var(--border-radius-xs);
+
+    @include hover {
+      color: var(--color-white);
+      background-color: var(--color-black);
+    }
+  }
+}

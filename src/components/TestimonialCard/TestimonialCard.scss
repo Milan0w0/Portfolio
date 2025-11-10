@@ -1,0 +1,41 @@
+.testimonial-card {
+  display: flex;
+  column-gap: 30px;
+  padding-inline: fluid(24, 10);
+  user-select: none;
+
+  &__item {
+    flex: 0 0 fluid(370, 303);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 24px;
+    padding: fluid(40, 20);
+    text-align: center;
+    border-radius: var(--border-radius-l);
+    box-shadow: var(--shadow);
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      color: var(--color-white);
+      background-color: var(--color-black);
+
+      .testimonial-card__name {
+        border-top: var(--color-white) var(--border-width-m) solid;
+      }
+    }
+  }
+
+  &__image, &__name, &__job {
+    margin-inline: auto;
+  }
+
+  &__name {
+    padding-top: 24px;
+    border-top: var(--color-black) var(--border-width-m) solid;
+  }
+
+  &__job {
+    color: var(--color-accent);
+  }
+}

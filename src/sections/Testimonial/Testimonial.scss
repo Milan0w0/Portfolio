@@ -1,0 +1,6 @@
+.testimonial {
+  @include custom-scrollbar;
+
+  overflow-x: auto;
+  padding-bottom: fluid(50, 30);
+}

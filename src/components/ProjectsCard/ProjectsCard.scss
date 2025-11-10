@@ -1,0 +1,69 @@
+.projects-card {
+  @include custom-scrollbar(
+    $size: 2px,
+    $thumb-color: #ffff,
+    $track-color: var(--color-gray-black)
+  );
+
+  //overflow-y: auto;
+  display: grid;
+  row-gap: fluid(100, 28);
+  //height: 1745px;
+  padding-right: fluid(60, 10);
+  -webkit-overflow-scrolling: touch;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px 40px;
+
+    @include tablet {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    @include mobile-s {
+      text-align: left;
+    }
+
+    &:nth-child(2n) {
+      flex-direction: row-reverse;
+
+      @include tablet {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &__image {
+    min-width: 500px;
+    height: 398px;
+    border-radius: var(--border-radius-m);
+
+    @include tablet {
+      min-width: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 28px;
+    max-width: 582px;
+  }
+
+  &__link {
+    width: 20px;
+
+    @include tablet {
+      margin-inline: auto;
+    }
+
+    @include mobile-s {
+      margin-inline: 0;
+    }
+  }
+}

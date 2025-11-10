@@ -1,0 +1,47 @@
+.experience-сard {
+  display: grid;
+  row-gap: fluid(32, 20);
+  color: var(--color-white);
+  user-select: none;
+
+  &__item {
+    display: grid;
+    row-gap: fluid(22, 28);
+    padding: 30px 24px;
+    border: var(--border-width-s) solid var(--color-accent);
+    border-radius: var(--border-radius);
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      background-color: var(--color-gray-black);
+      border: none;
+    }
+  }
+
+  &__icon {
+    object-fit: contain;
+    @include square(32px);
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mobile {
+      flex-direction: column;
+      align-items: start;
+      row-gap: 30px;
+    }
+  }
+
+  &__name {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__date,
+  p {
+    color: var(--color-gray);
+  }
+}

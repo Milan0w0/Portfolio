@@ -1,0 +1,11 @@
+.footer {
+  margin-top: fluid(70, 20);
+  padding-block: fluid(30, 20);
+  background-color: var(--color-black);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

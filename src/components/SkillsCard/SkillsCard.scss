@@ -1,0 +1,45 @@
+.skills-card {
+  &__list {
+    --columns: 5;
+
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    justify-items: center;
+
+    gap: #{fluid(40, 20)} #{fluid(72, 20)};
+
+    @include laptop {
+      --columns: 4;
+    }
+
+    @include tablet {
+      --columns: 3;
+    }
+
+    @include mobile {
+      --columns: 2;
+    }
+  }
+
+  &__item {
+    @include flex-center;
+
+    flex-direction: column;
+    row-gap: var(--gap);
+    width: 100%;
+    height: fluid(186, 160);
+    border: var(--border);
+    border-radius: var(--border-radius-xs);
+    cursor: pointer;
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      color: var(--color-white);
+      background-color: var(--color-black);
+    }
+  }
+
+  &__title {
+    font-weight: 800;
+  }
+}
