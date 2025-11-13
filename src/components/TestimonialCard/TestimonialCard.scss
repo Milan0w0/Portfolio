@@ -30,6 +30,11 @@
     margin-inline: auto;
   }
 
+  &__image {
+    @include square(96px);
+    border-radius: 100%;
+  }
+
   &__name {
     padding-top: 24px;
     border-top: var(--color-black) var(--border-width-m) solid;

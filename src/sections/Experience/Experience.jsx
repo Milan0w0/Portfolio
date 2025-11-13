@@ -16,11 +16,11 @@ export default (props) => {
         "I currently work actively on various freelance platforms, offering front-end development services to clients. I apply all the skills I gained in my previous work to create user-friendly websites.",
     },
     {
-      imgSrc: './src/assets/icons/company/divotion.jpg',
-      title: 'Front-End Developer - Divotion',
+      imgSrc: './src/assets/icons/company/coding-team.png',
+      title: 'Front-End Developer - Coding Team',
       date: {
         dataTime: '2024-05/2025-08',
-        label: 'May 2024 - Aug 2015',
+        label: 'May 2024 - Aug 2025',
       },
       description: "Worked on creating responsive and modern web interfaces for small business clients." +
         "Developed layouts using HTML, SCSS, and JavaScript, optimized code for performance, and implemented interactive features." +

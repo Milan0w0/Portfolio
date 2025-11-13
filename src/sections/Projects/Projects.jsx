@@ -9,7 +9,7 @@ export default () => {
       imgSrc: '/src/assets/images/projects/future-tech.jpg',
       title: 'Future-Tech',
       description:
-        "A modern multi-page website created for a fictitious company working in the field of artificial intelligence.\n" +
+        "A modern multi-page website created for company working in the field of artificial intelligence.\n" +
         "The project was developed using HTML, SCSS, and JavaScript, with a focus on clean structure, maintainable code, and responsive design across all devices",
       href: 'https://milan0w0.github.io/future-tech/',
     },
@@ -17,7 +17,7 @@ export default () => {
       imgSrc: '/src/assets/images/projects/vrnas.jpg',
       title: 'VrNas',
       description:
-        "A one-page website created for a fictional company specializing in virtual reality technologies.\n" +
+        "A one-page website created for company specializing in virtual reality technologies.\n" +
         "Built with HTML, SCSS, JavaScript, and Vite, the site features a clean and modern design focused on visual appeal and user interaction.",
       href: 'https://milan0w0.github.io/VRNas/',
     },
@@ -25,7 +25,7 @@ export default () => {
       imgSrc: '/src/assets/images/projects/positivus.jpg',
       title: 'Positivus',
       description:
-        "A one-page website created for a fictitious company operating in the marketing and creative solutions field.\n" +
+        "A one-page website created for company operating in the marketing and creative solutions field.\n" +
         "Developed using HTML and SCSS, with a strong focus on clean structure, modern layout, and responsive design for all screen sizes.",
       href: 'https://milan0w0.github.io/positivus/',
     },

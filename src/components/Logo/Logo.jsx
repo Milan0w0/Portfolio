@@ -9,7 +9,8 @@ export default (props) => {
   return (
     <a
       className={clsx('logo', color && `logo--${color}`, className)}
-      href="/"
+      id="home"
+      href="#home"
       title={title}
       aria-label={title}
     >

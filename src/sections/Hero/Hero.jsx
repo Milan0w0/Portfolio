@@ -11,14 +11,14 @@ export default () => {
             <h1 className="hero__title">
               Hello I’am
               <b>
-                 Bakker Milan. Frontend
+                   Milan. Frontend
                 <span className="text-outline"> Developer </span>
               </b>
-              Based In <b>Netherlands.</b>
+              Based In <b>Russia.</b>
             </h1>
             <div className="hero__description">
               <p>
-                I offer freelance services on various freelance platforms as a frontend developer. I create modern and responsive websites using cutting-edge technologies. I am constantly learning new things in my field and improving my skills.              </p>
+                I offer freelance services on various freelance platforms as a frontend developer. I create modern and responsive websites using cutting-edge technologies. I am constantly learning new things in my field and improving my skills.</p>
             </div>
           </div>
           <Socials className="hero__socials" />

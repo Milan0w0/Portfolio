@@ -11,23 +11,23 @@ export default () => {
       href: '/',
       description:
         'It was an incredible pleasure working together on this project, thank you',
-      forename: 'Lina Carter',
+      forename: 'Nikolaeva Vera',
       job: 'Designer',
     },
     {
-      imgSrc: '/src/assets/images/testimonial/liam-carter.png',
+      imgSrc: '/src/assets/images/testimonial/elizaveta-alexandrova.png',
       href: '/',
       description:
         'We wanted a clean and modern landing page for our campaign, and the result exceeded our expectations.',
-      forename: 'Liam Carter',
+      forename: 'Elizaveta Alexandrova',
       job: 'Marketing Manager',
     },
     {
-      imgSrc: '/src/assets/images/testimonial/amelia-brooks.png',
+      imgSrc: '/src/assets/images/testimonial/morozov-nikolay.png',
       href: '/',
       description:
         'The site is intuitive, visually balanced, and adapts perfectly to any device.',
-      forename: 'Amelia Brooks',
+      forename: 'Morozov Nikolay',
       job: 'Client',
     },
   ]
